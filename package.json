@@ -1,0 +1,32 @@
+{
+  "name": "webhook-receiver-service",
+  "version": "0.1.0",
+  "description": "a node.js service to execute configured tasks when triggered by webhook-bridge-service",
+  "main": "index.js",
+  "dependencies": {
+    "body-parser": "^1.18.3",
+    "config": "^2.0.1",
+    "express": "^4.16.3",
+    "js-yaml": "^3.12.0",
+    "winston": "^3.1.0"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.4"
+  },
+  "scripts": {
+    "dev": "nodemon src/index.js",
+    "start": "node src/index.js",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/frncsdrk/webhook-receiver-service.git"
+  },
+  "author": "frncsdrk",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/frncsdrk/webhook-receiver-service/issues"
+  },
+  "homepage": "https://github.com/frncsdrk/webhook-receiver-service#readme",
+  "private": true
+}
