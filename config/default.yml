@@ -1,10 +1,11 @@
 service:
   server:
+    hash: wrs_service
     logger:
-      logs_path: /path/to/webhook-bridge-service/logs/
+      logs_path: /path/to/webhook-receiver-service/logs/
       error_log_file: error.log
       combined_log_file: combined.log
     port: 9000
   triggers:
     example:
-      actions:
+      shell: '"./path/to/shell-script"'
