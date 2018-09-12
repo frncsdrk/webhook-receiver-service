@@ -1,6 +1,8 @@
 service:
+  bridge:
+    id: webhook_bridge_service
+    hash: wbs_hash
   server:
-    hash: wrs_service
     logger:
       logs_path: /path/to/webhook-receiver-service/logs/
       error_log_file: error.log
