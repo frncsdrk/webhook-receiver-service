@@ -1,6 +1,6 @@
 {
   "name": "webhook-receiver-service",
-  "version": "0.1.0",
+  "version": "0.2.0",
   "description": "a node.js service to execute configured tasks when triggered by webhook-bridge-service",
   "main": "index.js",
   "dependencies": {
