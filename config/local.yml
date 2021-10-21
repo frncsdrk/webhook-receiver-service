@@ -1,9 +1,0 @@
-service:
-  server:
-    logger:
-      logs_path: /home/drake/ws/gh/webhook-receiver-service/logs/
-      error_log_file: error.log
-      combined_log_file: combined.log
-  triggers:
-    example:
-      shell: '"./example.sh"'
